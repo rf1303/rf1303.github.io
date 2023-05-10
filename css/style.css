@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+
+header {
+    background-color:  #0c4c59;
+    border-radius: 4px;
+}
+#nombre {
+    color: #141617;
+    text-align: center;
+    line-height: 40%;
+    /* font-size: 4em; */
+}
+
+#oficio {
+    color: #141617;
+    text-align: center;
+    line-height: 40%;
+    /* font-size: 3em; */
+}
+
+#fotoCara {
+    display: block;
+    width: 12em;
+    border-radius: 50%;
+    margin: auto;
+}
+#iconos {
+    background-color: #0c4c59;
+    width: 5%;
+    text-align: left;
+}
+.menu {
+    float: left;
+    width: 40%;
+    text-align: center;
+}
+#titulos1 {
+    text-align:center;
+}
+#perfil {
+    background-color:  #0c4c59;
+    color: #141617;
+}
+.menu button {
+    background-color:  #0c4c59;
+    padding: 12px;
+    margin-top: 3px;
+    /* display: block; */
+    width: 100%;
+    color: #141617;
+    border-radius: 4px;
+    font-size: medium;
+}
+#main {
+    float: left;
+    width: 60%;
+}
+@media only screen and (max-width: 430px) {
+ .menu {
+    width: 100%;
+  }
+}
